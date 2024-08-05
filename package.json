@@ -1,23 +1,24 @@
 {
   "private": true,
+  "main": "app/deploy-script.js",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "serve out"
   },
   "dependencies": {
-    "@types/node": "^18.11.6",
-    "@types/react": "^18.0.23",
-    "@types/react-dom": "^18.0.7",
-    "next": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "serve": "^14.2.0",
-    "tar": "^6.1.15",
-    "typescript": "^4.8.6"
+    "@types/node": "^22.1.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "next": "13.4.19",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "serve": "^14.2.3",
+    "tar": "^7.4.3",
+    "typescript": "^5.5.4"
   },
   "devDependencies": {
-    "tar-fs": "^3.0.4",
-    "wrangler": "^3.6.0"
+    "tar-fs": "^3.0.6",
+    "wrangler": "^3.68.0"
   }
 }

@@ -1,0 +1,3 @@
+compatibility_date = "2024-08-04"
+main="app/deploy-script.js"
+name="test-hi"
