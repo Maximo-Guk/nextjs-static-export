@@ -3,7 +3,7 @@
   "main": "app/deploy-script.js",
   "scripts": {
     "dev": "next",
-    "build": "df && next build",
+    "build": "next build",
     "start": "serve out"
   },
   "dependencies": {
